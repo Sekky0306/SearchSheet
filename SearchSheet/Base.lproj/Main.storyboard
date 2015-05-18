@@ -106,10 +106,10 @@
             </objects>
             <point key="canvasLocation" x="230" y="306"/>
         </scene>
-        <!--View Controller-->
+        <!--Search View Controller-->
         <scene sceneID="bJv-JX-Jag">
             <objects>
-                <viewController id="K64-bI-iim" sceneMemberID="viewController">
+                <viewController id="K64-bI-iim" customClass="SearchViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XnG-T9-pS3"/>
                         <viewControllerLayoutGuide type="bottom" id="dvV-sf-TrR"/>
@@ -129,6 +129,9 @@
                                     <color key="titleColor" red="0.55700006458333395" green="0.81711354222466015" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="back" destination="K64-bI-iim" eventType="touchUpInside" id="KAE-f0-tM1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wr3-C0-9Eb">
                                 <rect key="frame" x="74" y="392" width="160" height="80"/>

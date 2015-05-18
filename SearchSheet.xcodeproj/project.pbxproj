@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3B52191B0A22CF00B28A43 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B52181B0A22CF00B28A43 /* SearchViewController.m */; };
 		3E47420E1B061B0F00EF7A11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E47420D1B061B0F00EF7A11 /* main.m */; };
 		3E4742111B061B0F00EF7A11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4742101B061B0F00EF7A11 /* AppDelegate.m */; };
 		3E4742141B061B0F00EF7A11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4742131B061B0F00EF7A11 /* ViewController.m */; };
@@ -30,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E3B52171B0A22CF00B28A43 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		3E3B52181B0A22CF00B28A43 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		3E4742081B061B0F00EF7A11 /* SearchSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E47420C1B061B0F00EF7A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E47420D1B061B0F00EF7A11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,6 +99,8 @@
 				3E4742311B061BD800EF7A11 /* Defaults */,
 				3E47421A1B061B0F00EF7A11 /* LaunchScreen.xib */,
 				3E47420B1B061B0F00EF7A11 /* Supporting Files */,
+				3E3B52171B0A22CF00B28A43 /* SearchViewController.h */,
+				3E3B52181B0A22CF00B28A43 /* SearchViewController.m */,
 			);
 			path = SearchSheet;
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 			files = (
 				3E4742141B061B0F00EF7A11 /* ViewController.m in Sources */,
 				3E4742111B061B0F00EF7A11 /* AppDelegate.m in Sources */,
+				3E3B52191B0A22CF00B28A43 /* SearchViewController.m in Sources */,
 				3E47420E1B061B0F00EF7A11 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +442,7 @@
 				3E47422D1B061B0F00EF7A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E47422E1B061B0F00EF7A11 /* Build configuration list for PBXNativeTarget "SearchSheetTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +451,7 @@
 				3E4742301B061B0F00EF7A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
