@@ -94,13 +94,13 @@
 				3E4742101B061B0F00EF7A11 /* AppDelegate.m */,
 				3E4742121B061B0F00EF7A11 /* ViewController.h */,
 				3E4742131B061B0F00EF7A11 /* ViewController.m */,
+				3E3B52171B0A22CF00B28A43 /* SearchViewController.h */,
+				3E3B52181B0A22CF00B28A43 /* SearchViewController.m */,
 				3E4742151B061B0F00EF7A11 /* Main.storyboard */,
 				3E4742181B061B0F00EF7A11 /* Images.xcassets */,
 				3E4742311B061BD800EF7A11 /* Defaults */,
 				3E47421A1B061B0F00EF7A11 /* LaunchScreen.xib */,
 				3E47420B1B061B0F00EF7A11 /* Supporting Files */,
-				3E3B52171B0A22CF00B28A43 /* SearchViewController.h */,
-				3E3B52181B0A22CF00B28A43 /* SearchViewController.m */,
 			);
 			path = SearchSheet;
 			sourceTree = "<group>";
