@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface SearchViewController : UIViewController
+   
+
 -(IBAction)back;
+- (IBAction)share;
 
 @end

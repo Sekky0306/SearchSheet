@@ -149,6 +149,9 @@
                                     <color key="titleColor" red="0.55700006458333395" green="0.81711354222466015" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="share" destination="K64-bI-iim" eventType="touchUpInside" id="D1Z-V9-rYg"/>
+                                </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xYw-TW-yDw">
                                 <rect key="frame" x="30" y="90" width="260" height="200"/>
