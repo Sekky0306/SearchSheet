@@ -13,5 +13,5 @@
 
 -(IBAction)back;
 - (IBAction)share;
-
+-(IBAction)full;
 @end

@@ -10,7 +10,7 @@
 
 @interface ViewController : UIViewController
 <UIPickerViewDelegate, UIPickerViewDataSource,UITextFieldDelegate>
-
+-(IBAction)search;
 
 @end
 

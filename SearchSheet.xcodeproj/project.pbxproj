@@ -18,6 +18,7 @@
 		3E4742351B061BD800EF7A11 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4742321B061BD800EF7A11 /* Default-568h@2x.png */; };
 		3E4742361B061BD800EF7A11 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4742331B061BD800EF7A11 /* Default-667h@2x.png */; };
 		3E4742371B061BD800EF7A11 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4742341B061BD800EF7A11 /* Default-736h@3x.png */; };
+		3EA985401B11C40900B2E1F2 /* FullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA9853F1B11C40900B2E1F2 /* FullViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		3E4742321B061BD800EF7A11 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3E4742331B061BD800EF7A11 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		3E4742341B061BD800EF7A11 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		3EA9853E1B11C40900B2E1F2 /* FullViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FullViewController.h; path = ../FullViewController.h; sourceTree = "<group>"; };
+		3EA9853F1B11C40900B2E1F2 /* FullViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FullViewController.m; path = ../FullViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				3E4742131B061B0F00EF7A11 /* ViewController.m */,
 				3E3B52171B0A22CF00B28A43 /* SearchViewController.h */,
 				3E3B52181B0A22CF00B28A43 /* SearchViewController.m */,
+				3EA9853E1B11C40900B2E1F2 /* FullViewController.h */,
+				3EA9853F1B11C40900B2E1F2 /* FullViewController.m */,
 				3E4742151B061B0F00EF7A11 /* Main.storyboard */,
 				3E4742181B061B0F00EF7A11 /* Images.xcassets */,
 				3E4742311B061BD800EF7A11 /* Defaults */,
@@ -248,6 +253,7 @@
 				3E4742111B061B0F00EF7A11 /* AppDelegate.m in Sources */,
 				3E3B52191B0A22CF00B28A43 /* SearchViewController.m in Sources */,
 				3E47420E1B061B0F00EF7A11 /* main.m in Sources */,
+				3EA985401B11C40900B2E1F2 /* FullViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
