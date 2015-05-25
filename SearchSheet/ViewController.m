@@ -86,6 +86,13 @@ numberOfRowsInComponent:(NSInteger)component
 {
     NSLog(@"%@が選択されました",ballParkArray[row]);
 }
+if (pickerView isEqualToString:@"横浜スタジアム"){
+  label1.text=(@"ゲート");
+}else{
+    label1.text=(@"整理番号");
+
+}
+
 
 
 @end
