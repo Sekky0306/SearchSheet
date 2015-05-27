@@ -45,6 +45,11 @@
      label2.text=(@"通路");
      label3.text=(@"列");
      label4.text=(@"番");
+    tf1.delegate=self;
+    tf2.delegate=self;
+    tf3.delegate=self;
+    tf4.delegate=self;
+
     
 
 }
@@ -86,13 +91,18 @@ numberOfRowsInComponent:(NSInteger)component
 {
     NSLog(@"%@が選択されました",ballParkArray[row]);
 }
+/*
 if (pickerView isEqualToString:@"横浜スタジアム"){
   label1.text=(@"ゲート");
 }else{
     label1.text=(@"整理番号");
 
 }
-
-
+*/
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
+}
 
 @end
