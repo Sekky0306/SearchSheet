@@ -90,6 +90,13 @@ numberOfRowsInComponent:(NSInteger)component
       didSelectRow:(NSInteger)row inComponent:(NSInteger)component
 {
     NSLog(@"%@が選択されました",ballParkArray[row]);
+    if ([ballParkArray[row] isEqualToString:@"横浜スタジアム"]){
+        label3.text=(@"段");
+    }else{
+        label3.text=(@"列");
+        
+    }
+
 }
 /*
 if (pickerView isEqualToString:@"横浜スタジアム"){
@@ -103,6 +110,24 @@ if (pickerView isEqualToString:@"横浜スタジアム"){
 {
     [textField resignFirstResponder];
     return YES;
+}
+ - (void)textFieldDidBeginEditing:(UITextField *)textField {
+    [UIView animateWithDuration:0.2f delay:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^ {
+        self.view.center = CGPointMake(self.view.center.x, self.view.center.y - 150);
+        
+    } completion:^(BOOL finished) {
+        
+    }];
+    
+}
+
+- (void)textFieldDidEndEditing:(UITextField *)textField {
+    [UIView animateWithDuration:0.2f delay:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^ {
+   
+        self.view.center = CGPointMake(self.view.center.x, self.view.center.y + 150);
+    } completion:^(BOOL finished) {
+        
+    }];
 }
 
 @end
