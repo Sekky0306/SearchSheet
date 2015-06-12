@@ -20,12 +20,16 @@
     
     scrollView.pagingEnabled = NO;
     scrollView.contentSize = CGSizeMake(img.frame.size.width, img.frame.size.height);
-    scrollView.showsHorizontalScrollIndicator = NO;
+    NSLog(@"%@",NSStringFromCGSize(CGSizeMake(img.frame.size.width, img.frame.size.height)));
+       scrollView.showsHorizontalScrollIndicator = NO;
     scrollView.showsVerticalScrollIndicator = NO;
-    scrollView.scrollsToTop = YES;
+    //scrollView.scrollsToTop = YES;
     scrollView.delegate = self;
     scrollView.maximumZoomScale = 4.0;
     scrollView.minimumZoomScale = 0.4;
+    scrollView.contentOffset = CGPointMake(img.center.x/1.5, img.center.y/1.5);
+    NSLog(@"%@",NSStringFromCGPoint(CGPointMake(img.center.x/1.5, img.center.y/1.5)));
+
     
     [scrollView addSubview: img];
     //[img release];

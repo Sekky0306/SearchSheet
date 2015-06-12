@@ -13,15 +13,13 @@
 {
     IBOutlet UIScrollView *scrollView;
     UIImageView *myImage;
-
 }
+
 @property (nonatomic, retain) UIScrollView *scrollView;
 @property (nonatomic, retain) UIImageView *myImage;
 
-
-   
-
--(IBAction)back;
+- (IBAction)back;
 - (IBAction)share;
--(IBAction)full;
+- (IBAction)full;
+
 @end

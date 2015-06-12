@@ -9,6 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface FullViewController : UIViewController
--(IBAction)back2;
+<UIScrollViewDelegate>
+{
+    IBOutlet UIScrollView *scrollView;
+    UIImageView *myImage;
+    
+}
+
+@property (nonatomic, retain) UIScrollView *scrollView;
+@property (nonatomic, retain) UIImageView *myImage;
+
+- (IBAction)back2;
 
 @end
