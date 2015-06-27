@@ -8,49 +8,33 @@
 
 #import "SearchViewController.h"
 
-@implementation SearchViewController
-@synthesize scrollView;
-@synthesize myImage;
+@implementation SearchViewController{
+    IBOutlet UIScrollView *scrollView;
+    UIImageView *imageView;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    UIImageView *img = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"park.png"]];
-    [self setMyImage:img];
-    
-    scrollView.pagingEnabled = NO;
-    scrollView.contentSize = CGSizeMake(img.frame.size.width, img.frame.size.height);
-    NSLog(@"%@",NSStringFromCGSize(CGSizeMake(img.frame.size.width, img.frame.size.height)));
-       scrollView.showsHorizontalScrollIndicator = NO;
-    scrollView.showsVerticalScrollIndicator = NO;
-    //scrollView.scrollsToTop = YES;
     scrollView.delegate = self;
-    scrollView.maximumZoomScale = 4.0;
-    scrollView.minimumZoomScale = 0.4;
-    scrollView.contentOffset = CGPointMake(img.center.x/1.5, img.center.y/1.5);
-    NSLog(@"%@",NSStringFromCGPoint(CGPointMake(img.center.x/1.5, img.center.y/1.5)));
-
+    scrollView.maximumZoomScale = 5.0;
+    scrollView.minimumZoomScale = 1.0;
     
-    [scrollView addSubview: img];
-    //[img release];
+       imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 320)];
+    imageView.image = [UIImage imageNamed:@"park.png"];
+    [scrollView addSubview:imageView];
+    scrollView.contentSize = CGSizeMake(imageView.bounds.size.width , imageView.bounds.size.height );
 }
-- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
-    return myImage;
-}
-
-//- (void)dealloc {
-// [super dealloc];
-// [myImage release];
-// [scrollView release];
-//}//
-
-
 - (void)didReceiveMemoryWarning {
     
     
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
+    return imageView;
+}
+
 
 
 
