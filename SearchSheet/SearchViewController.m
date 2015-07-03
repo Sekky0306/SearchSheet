@@ -24,6 +24,14 @@
     imageView.image = [UIImage imageNamed:@"park.png"];
     [scrollView addSubview:imageView];
     scrollView.contentSize = CGSizeMake(imageView.bounds.size.width , imageView.bounds.size.height );
+   Line *testDraw =
+    [[Line alloc] initWithFrame:
+     CGRectMake(0.f,0.f,self.view.frame.size.width-80.f,self.view.frame.size.height-140.f)];
+    testDraw.backgroundColor = [UIColor clearColor];
+
+    [self.view addSubview:testDraw];
+    
+
 }
 - (void)didReceiveMemoryWarning {
     

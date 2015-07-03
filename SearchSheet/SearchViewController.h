@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Line.h"
 
 @interface SearchViewController : UIViewController
     <UIScrollViewDelegate>

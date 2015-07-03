@@ -7,6 +7,7 @@
 //
 
 #import "FullViewController.h"
+#import "Line.h"
 
 @implementation FullViewController
 @synthesize scrollView;
