@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3173AA1B4FFA2000BD8BE4 /* tuuro.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3173A91B4FFA2000BD8BE4 /* tuuro.png */; };
+		3E3173AC1B4FFA2B00BD8BE4 /* door.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3173AB1B4FFA2B00BD8BE4 /* door.png */; };
 		3E37C4861B25BD19001AF055 /* park.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E37C4851B25BD19001AF055 /* park.png */; };
 		3E3B52191B0A22CF00B28A43 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B52181B0A22CF00B28A43 /* SearchViewController.m */; };
 		3E4485E01B344A9100522F06 /* 11140365_1598869443722722_8148767123735261740_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E4485DF1B344A9100522F06 /* 11140365_1598869443722722_8148767123735261740_n.jpg */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E3173A91B4FFA2000BD8BE4 /* tuuro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tuuro.png; sourceTree = "<group>"; };
+		3E3173AB1B4FFA2B00BD8BE4 /* door.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door.png; sourceTree = "<group>"; };
 		3E37C4851B25BD19001AF055 /* park.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = park.png; sourceTree = "<group>"; };
 		3E3B52171B0A22CF00B28A43 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		3E3B52181B0A22CF00B28A43 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
@@ -113,6 +117,8 @@
 				3E4742151B061B0F00EF7A11 /* Main.storyboard */,
 				3E4485DF1B344A9100522F06 /* 11140365_1598869443722722_8148767123735261740_n.jpg */,
 				3E37C4851B25BD19001AF055 /* park.png */,
+				3E3173AB1B4FFA2B00BD8BE4 /* door.png */,
+				3E3173A91B4FFA2000BD8BE4 /* tuuro.png */,
 				3E4742181B061B0F00EF7A11 /* Images.xcassets */,
 				3E4742311B061BD800EF7A11 /* Defaults */,
 				3E47421A1B061B0F00EF7A11 /* LaunchScreen.xib */,
@@ -238,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E4742171B061B0F00EF7A11 /* Main.storyboard in Resources */,
+				3E3173AC1B4FFA2B00BD8BE4 /* door.png in Resources */,
 				3E4742351B061BD800EF7A11 /* Default-568h@2x.png in Resources */,
 				3E47421C1B061B0F00EF7A11 /* LaunchScreen.xib in Resources */,
 				3E4485E01B344A9100522F06 /* 11140365_1598869443722722_8148767123735261740_n.jpg in Resources */,
@@ -245,6 +252,7 @@
 				3E4742191B061B0F00EF7A11 /* Images.xcassets in Resources */,
 				3E4742361B061BD800EF7A11 /* Default-667h@2x.png in Resources */,
 				3E4742371B061BD800EF7A11 /* Default-736h@3x.png in Resources */,
+				3E3173AA1B4FFA2000BD8BE4 /* tuuro.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

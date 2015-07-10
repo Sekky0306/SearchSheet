@@ -41,9 +41,9 @@
     
     // UIPickerのインスタンスをビューに追加
     ballParkArray = [NSArray arrayWithObjects:@"横浜スタジアム",@"東京ドーム",@"神宮球場",nil];
-    label1.text=(@"塁側");
+    label1.text=(@"ゲート");
      label2.text=(@"通路");
-     label3.text=(@"列");
+     label3.text=(@"段");
      label4.text=(@"番");
     tf1.delegate=self;
     tf2.delegate=self;
