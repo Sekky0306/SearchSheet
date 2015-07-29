@@ -7,7 +7,8 @@
 //
 
 #import "SearchViewController.h"
-#import "ViewController.m"
+//#import "ViewController.m"
+
 
 @implementation SearchViewController{
     IBOutlet UIScrollView *scrollView;
